@@ -1,0 +1,10 @@
+{
+    "java.debug.settings.onBuildFailureProceed": true,
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-17",
+            "path": "C:/Users/Jason/AppData/Roaming/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17",
+            "default": true
+        }
+    ]
+}
