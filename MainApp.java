@@ -100,6 +100,7 @@ public class MainApp extends Application {
 
     private void handleDFS() {
         List<String> result = graph.depthFirstSearch();
+        // Use "->" if the UTF-8 arrow character causes issues in your environment.
         statusLabel.setText("DFS: " + String.join(" → ", result));
         statusLabel.setStyle("-fx-text-fill: blue;");
     }

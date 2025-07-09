@@ -65,8 +65,7 @@ public class GraphPane extends Pane {
         edge.setStrokeWidth(2);
 
         getChildren().add(edge);
-        // Send edge behind nodes
-        edge.toBack();
+        edge.toBack(); // Push edge behind the nodes
     }
 
     public Map<String, Vertex> getVertices() {
@@ -78,3 +77,4 @@ public class GraphPane extends Pane {
         vertices.clear();
         nextLabel = 'A';
     }
+}
